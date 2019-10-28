@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Guarantor Domisili - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c48dcc20-722a-4da4-b10c-9f682d74d1a4</testCaseGuid>
+   <variable>
+      <defaultValue>'INDONESIA'</defaultValue>
+      <description></description>
+      <id>9466a8fb-9148-40bf-9b38-e37607cbfcfa</id>
+      <masked>false</masked>
+      <name>GDvarNegara</name>
+   </variable>
+   <variable>
+      <defaultValue>'DEKAT INDOMARET'</defaultValue>
+      <description></description>
+      <id>d774485a-471a-40ef-993f-c252deadcb7b</id>
+      <masked>false</masked>
+      <name>GDvarPtjkAlamat</name>
+   </variable>
+   <variable>
+      <defaultValue>'1961'</defaultValue>
+      <description></description>
+      <id>2a423320-0c45-4751-8afd-d4f588fbe2f3</id>
+      <masked>false</masked>
+      <name>GDvarTngglSejakTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'MILIK SENDIRI LUNAS'</defaultValue>
+      <description></description>
+      <id>9cac44af-40b5-4a08-ab07-7048b8930bbb</id>
+      <masked>false</masked>
+      <name>GDvarStatusTT</name>
+   </variable>
+   <variable>
+      <defaultValue>'jl wahyu 1 no 18 jakarta selatan'</defaultValue>
+      <description></description>
+      <id>1af1bbcf-764a-4583-8012-5392aac9abf7</id>
+      <masked>false</masked>
+      <name>GDvarAlamatLengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'11'</defaultValue>
+      <description></description>
+      <id>8cdaea8a-4e20-4aa7-ad58-814fb71fa332</id>
+      <masked>false</masked>
+      <name>GDvarRT</name>
+   </variable>
+   <variable>
+      <defaultValue>'11'</defaultValue>
+      <description></description>
+      <id>1a4b1658-1962-48ae-9e48-51f7d094e40c</id>
+      <masked>false</masked>
+      <name>GDvarRW</name>
+   </variable>
+   <variable>
+      <defaultValue>'12420'</defaultValue>
+      <description></description>
+      <id>bc11f2d0-3286-4a68-a8c5-b03b6f5052fc</id>
+      <masked>false</masked>
+      <name>GDvarKodePos</name>
+   </variable>
+   <variable>
+      <defaultValue>'021'</defaultValue>
+      <description></description>
+      <id>5ee5de75-2b48-4e96-9f01-5b45c1676849</id>
+      <masked>false</masked>
+      <name>GDvarNoTlp1</name>
+   </variable>
+   <variable>
+      <defaultValue>'653557'</defaultValue>
+      <description></description>
+      <id>526c5b7a-3dc7-44aa-b6d0-40962afe90eb</id>
+      <masked>false</masked>
+      <name>GDvarNoTlp2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tidak'</defaultValue>
+      <description></description>
+      <id>86510349-e394-45ed-ace5-fc607c5582fa</id>
+      <masked>false</masked>
+      <name>GDvarDomisili</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Co-borrower Domisili</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ae99660-d0ad-4270-8e82-866577840d59</testCaseGuid>
+   <variable>
+      <defaultValue>'jl wahyu 1 no 18 jakarta selatan'</defaultValue>
+      <description></description>
+      <id>1af1bbcf-764a-4583-8012-5392aac9abf7</id>
+      <masked>false</masked>
+      <name>CDvarAlamatLengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'11'</defaultValue>
+      <description></description>
+      <id>8cdaea8a-4e20-4aa7-ad58-814fb71fa332</id>
+      <masked>false</masked>
+      <name>CDvarRT</name>
+   </variable>
+   <variable>
+      <defaultValue>'11'</defaultValue>
+      <description></description>
+      <id>1a4b1658-1962-48ae-9e48-51f7d094e40c</id>
+      <masked>false</masked>
+      <name>CDvarRW</name>
+   </variable>
+   <variable>
+      <defaultValue>'12420'</defaultValue>
+      <description></description>
+      <id>bc11f2d0-3286-4a68-a8c5-b03b6f5052fc</id>
+      <masked>false</masked>
+      <name>CDvarKodePos</name>
+   </variable>
+   <variable>
+      <defaultValue>'INDONESIA'</defaultValue>
+      <description></description>
+      <id>1f19f032-490b-4f1f-aaf5-caf9b622d931</id>
+      <masked>false</masked>
+      <name>CDvarNegaraDomisili</name>
+   </variable>
+   <variable>
+      <defaultValue>'seberang pasar'</defaultValue>
+      <description></description>
+      <id>8f3ec11d-1ee6-4cea-a82b-afada2deb684</id>
+      <masked>false</masked>
+      <name>CDvarPetunjukAlamat</name>
+   </variable>
+   <variable>
+      <defaultValue>'021'</defaultValue>
+      <description></description>
+      <id>5ee5de75-2b48-4e96-9f01-5b45c1676849</id>
+      <masked>false</masked>
+      <name>CDvarNoTlp1</name>
+   </variable>
+   <variable>
+      <defaultValue>'653557'</defaultValue>
+      <description></description>
+      <id>526c5b7a-3dc7-44aa-b6d0-40962afe90eb</id>
+      <masked>false</masked>
+      <name>CDvarNoTlp2</name>
+   </variable>
+   <variable>
+      <defaultValue>'1964'</defaultValue>
+      <description></description>
+      <id>e1a30e9d-22cd-4387-8b3f-67ee267047c1</id>
+      <masked>false</masked>
+      <name>CDvarTinggalSejakKapan</name>
+   </variable>
+   <variable>
+      <defaultValue>'MILIK KELUARGA'</defaultValue>
+      <description></description>
+      <id>b4eda89f-164e-4e63-80b5-1ce09d62add2</id>
+      <masked>false</masked>
+      <name>CDvarStatusTempatTinggal</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ya'</defaultValue>
+      <description></description>
+      <id>e41779c3-8153-4912-94ac-cf6632b79ff7</id>
+      <masked>false</masked>
+      <name>CDvarDomisili</name>
+   </variable>
+</TestCaseEntity>

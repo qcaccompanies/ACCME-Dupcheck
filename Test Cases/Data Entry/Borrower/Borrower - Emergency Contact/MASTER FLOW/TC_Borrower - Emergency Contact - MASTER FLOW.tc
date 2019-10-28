@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Borrower - Emergency Contact - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66f4bfcc-dc1a-4917-867e-3a894f1ef122</testCaseGuid>
+   <variable>
+      <defaultValue>'458'</defaultValue>
+      <description></description>
+      <id>ef09fa82-5eb8-4021-9c3e-e5a16bd09e35</id>
+      <masked>false</masked>
+      <name>BEvarRT</name>
+   </variable>
+   <variable>
+      <defaultValue>'223'</defaultValue>
+      <description></description>
+      <id>402446e1-8d3e-4345-8fb0-f2ff686b16e4</id>
+      <masked>false</masked>
+      <name>BEvarRW</name>
+   </variable>
+   <variable>
+      <defaultValue>'10124'</defaultValue>
+      <description></description>
+      <id>9c90a9d2-a056-4da2-aa47-6037604d2a98</id>
+      <masked>false</masked>
+      <name>BEvarKodePos</name>
+   </variable>
+</TestCaseEntity>

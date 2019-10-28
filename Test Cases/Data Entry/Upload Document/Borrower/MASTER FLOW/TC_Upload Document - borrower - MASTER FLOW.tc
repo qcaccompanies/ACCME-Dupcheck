@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>sebagai master untuk upload foto borrower. sebagai landasan dalam membuat test case test case lain</description>
+   <name>TC_Upload Document - borrower - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9e3a641-2a9a-4b97-a006-79821d6f9a3e</testCaseGuid>
+   <variable>
+      <defaultValue>'abc.jpg'</defaultValue>
+      <description></description>
+      <id>e7c58428-9535-4b18-b4da-884a1d4d181e</id>
+      <masked>false</masked>
+      <name>Borrower_varKTP</name>
+   </variable>
+</TestCaseEntity>

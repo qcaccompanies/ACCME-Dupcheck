@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Guarantor Info Umum - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78660286-a999-4d53-8475-fe930e322692</testCaseGuid>
+   <variable>
+      <defaultValue>'SAM SURYA'</defaultValue>
+      <description></description>
+      <id>0024dcc9-7b50-44d0-b736-b8c857abc497</id>
+      <masked>false</masked>
+      <name>GIUvarNamaLTS</name>
+   </variable>
+   <variable>
+      <defaultValue>'ANGELINA JOLIE'</defaultValue>
+      <description></description>
+      <id>d0ac1b78-0f57-4685-bce9-d8edfce88d2c</id>
+      <masked>false</masked>
+      <name>GIUvarNamaIbuK</name>
+   </variable>
+   <variable>
+      <defaultValue>'S1'</defaultValue>
+      <description></description>
+      <id>efeacaa7-af77-401a-9ad0-1e0e8bba791b</id>
+      <masked>false</masked>
+      <name>GIUvarPendidikan</name>
+   </variable>
+   <variable>
+      <defaultValue>'SAMSURYAQC@GMAIL.COM'</defaultValue>
+      <description></description>
+      <id>83c71b0e-8527-4198-821b-2640e4c5fda8</id>
+      <masked>false</masked>
+      <name>GIUvarEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'085770037847'</defaultValue>
+      <description></description>
+      <id>52032477-2239-4181-8d3a-b2dbbed59f07</id>
+      <masked>false</masked>
+      <name>GIUvarTseluler</name>
+   </variable>
+   <variable>
+      <defaultValue>'FACEBOOK'</defaultValue>
+      <description></description>
+      <id>9037e4d2-5ff9-4f51-82c8-1e56e878a203</id>
+      <masked>false</masked>
+      <name>GIUvarAkunsosmed</name>
+   </variable>
+   <variable>
+      <defaultValue>'SAMSURYA'</defaultValue>
+      <description></description>
+      <id>5126fa2d-7820-4420-a535-2b474147debf</id>
+      <masked>false</masked>
+      <name>GIUvarSosmed</name>
+   </variable>
+   <variable>
+      <defaultValue>'565657575689564'</defaultValue>
+      <description></description>
+      <id>a2eb77cb-4c74-4d1a-b209-2eac60847925</id>
+      <masked>false</masked>
+      <name>GIUvarNoNPWP</name>
+   </variable>
+   <variable>
+      <defaultValue>'SAM SURYA'</defaultValue>
+      <description></description>
+      <id>207fd63b-96a5-4ae0-972f-4349dd0d037b</id>
+      <masked>false</masked>
+      <name>GIUvarNamaNPWP</name>
+   </variable>
+   <variable>
+      <defaultValue>'021'</defaultValue>
+      <description></description>
+      <id>5457c6f0-523c-46f3-b990-47ab00f63c2b</id>
+      <masked>false</masked>
+      <name>GIUvarKodeArea</name>
+   </variable>
+   <variable>
+      <defaultValue>'837892'</defaultValue>
+      <description></description>
+      <id>c381530d-f953-4b27-b23b-0868949a5be5</id>
+      <masked>false</masked>
+      <name>GIUvarTelepon</name>
+   </variable>
+</TestCaseEntity>

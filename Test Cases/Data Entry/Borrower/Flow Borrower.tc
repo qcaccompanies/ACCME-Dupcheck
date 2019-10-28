@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Flow Borrower</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21560681-dffe-4040-9c38-86c2730ccf99</testCaseGuid>
+   <variable>
+      <defaultValue>'3471095110940001'</defaultValue>
+      <description></description>
+      <id>cc8c4c86-f0e9-4672-9503-4d94582e1a8c</id>
+      <masked>false</masked>
+      <name>BIvarNoKTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'ISLAM'</defaultValue>
+      <description></description>
+      <id>1d56ae78-0e39-4273-a21a-3cda5628aac9</id>
+      <masked>false</masked>
+      <name>BIvarAgama</name>
+   </variable>
+   <variable>
+      <defaultValue>'UNMARRIED'</defaultValue>
+      <description></description>
+      <id>93d19067-156b-4a8c-a701-1c859df4ff55</id>
+      <masked>false</masked>
+      <name>BIvarStatusPerkawinan</name>
+   </variable>
+   <variable>
+      <defaultValue>'458'</defaultValue>
+      <description></description>
+      <id>ef09fa82-5eb8-4021-9c3e-e5a16bd09e35</id>
+      <masked>false</masked>
+      <name>BEvarRT</name>
+   </variable>
+   <variable>
+      <defaultValue>'223'</defaultValue>
+      <description></description>
+      <id>402446e1-8d3e-4345-8fb0-f2ff686b16e4</id>
+      <masked>false</masked>
+      <name>BEvarRW</name>
+   </variable>
+   <variable>
+      <defaultValue>'10124'</defaultValue>
+      <description></description>
+      <id>9c90a9d2-a056-4da2-aa47-6037604d2a98</id>
+      <masked>false</masked>
+      <name>BEvarKodePos</name>
+   </variable>
+</TestCaseEntity>

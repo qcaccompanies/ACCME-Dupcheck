@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Simulasi Kredit - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be2a536f-1e5b-4f9c-ba86-5a7ac124cc64</testCaseGuid>
+   <variable>
+      <defaultValue>'TOYOTA'</defaultValue>
+      <description></description>
+      <id>009ac564-ff15-46cd-9832-51903144de9b</id>
+      <masked>false</masked>
+      <name>varBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'AGYA'</defaultValue>
+      <description></description>
+      <id>ecfed2d7-980f-4382-a8ad-38fca62472fb</id>
+      <masked>false</masked>
+      <name>varType</name>
+   </variable>
+   <variable>
+      <defaultValue>'1.0 G M/T - 001'</defaultValue>
+      <description></description>
+      <id>9d87d5be-e282-4bd5-8e78-50904f7a3400</id>
+      <masked>false</masked>
+      <name>varModel</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>8d228fef-df3e-4d4e-982b-ebb0dbb71dd7</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
+   <variable>
+      <defaultValue>'36'</defaultValue>
+      <description></description>
+      <id>e00870a8-3793-4d9f-84c2-8b3df88ed699</id>
+      <masked>false</masked>
+      <name>varTenor</name>
+   </variable>
+   <variable>
+      <defaultValue>'200000000'</defaultValue>
+      <description></description>
+      <id>20bc10ce-6207-4933-927b-9a5153e548c4</id>
+      <masked>false</masked>
+      <name>varOTR</name>
+   </variable>
+   <variable>
+      <defaultValue>'60000000'</defaultValue>
+      <description></description>
+      <id>76eea316-0165-4499-a355-3295a97adf35</id>
+      <masked>false</masked>
+      <name>varRP</name>
+   </variable>
+   <variable>
+      <defaultValue>'AI TSO-JKT TEBET'</defaultValue>
+      <description></description>
+      <id>fad07985-47a1-403d-a042-3dbd8f758015</id>
+      <masked>false</masked>
+      <name>varDealer</name>
+   </variable>
+   <variable>
+      <defaultValue>'ABDUL KHOLIK'</defaultValue>
+      <description></description>
+      <id>6d19237e-dc0a-4c23-bc92-00358becc334</id>
+      <masked>false</masked>
+      <name>varSales</name>
+   </variable>
+</TestCaseEntity>

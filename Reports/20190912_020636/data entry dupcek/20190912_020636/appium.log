@@ -1,0 +1,1151 @@
+[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53364
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 53365
+[35m[Appium][39m   tmpDir: C:\Users\15421\AppData\Local\Temp\\Katalon\Appium\Temp1568228804062
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53364
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m12 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\15421\\git\\ACCMe-Mobile dupcheck\\AccMe.apk","noReset":true,"deviceId":"","deviceName":"samsung SM-A505F (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"platformName":"Android","udid":"RR8M30NJEFN","resetKeyboard":true,"systemPort":53363},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\15421\\git\\ACCMe-Mobile dupcheck\\AccMe.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"samsung SM-A505F (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:resetKeyboard":true,"appium:systemPort":53363,"appium:udid":"RR8M30NJEFN","appium:unicodeKeyboard":true}]}}[39m
+[35m[BaseDriver][39m The capabilities ["deviceId","platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.12.1 creating new AndroidUiautomator2Driver (v1.33.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   deviceId: 
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   app: C:\Users\15421\git\ACCMe-Mobile dupcheck\AccMe.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: samsung SM-A505F (Android 9)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platformVersion: 9
+[35m[Appium][39m   resetKeyboard: true
+[35m[Appium][39m   systemPort: 53363
+[35m[Appium][39m   udid: RR8M30NJEFN
+[35m[Appium][39m   unicodeKeyboard: true
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[35m[BaseDriver][39m Session created with session id: 9cec180f-1063-40c5-874a-975c161ede55
+[35m[BaseDriver][39m Using local app 'C:\Users\15421\git\ACCMe-Mobile dupcheck\AccMe.apk'
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\15421\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/15421/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using adb.exe from C:\Users\15421\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: RR8M30NJEFN
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\15421\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\15421\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\15421\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\15421\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\15421\.katalon\tools\android_sdk\build-tools\29.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\15421\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\15421\.katalon\tools\android_sdk\build-tools\29.0.2\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.outsystemsenterprise.accdev1.AccMeMobile2'
+[35m[ADB][39m Main activity name: 'com.outsystemsenterprise.accdev1.AccMeMobile2.MainActivity'
+[35m[ADB][39m Using apksigner.bat from C:\Users\15421\.katalon\tools\android_sdk\build-tools\29.0.2\apksigner.bat
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 3.4.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\15421\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.4.0.apk' and test from 'C:\Users\15421\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.outsystemsenterprise.accdev1.AccMeMobile2/com.outsystemsenterprise.accdev1.AccMeMobile2.MainActivity'. Starting it ourselves
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 9cec180f-1063-40c5-874a-975c161ede55 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m30073 ms - 1354[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55 [39m[32m200[39m [90m62 ms - 1286[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55 [39m[32m200[39m [90m43 ms - 1286[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m9 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m73 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Image\").text(\"AccMeTheme.creditsimulationsicon\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m1052 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/96bd239d-0634-4675-912a-fcb6d557ea8b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/96bd239d-0634-4675-912a-fcb6d557ea8b/location [39m[32m200[39m [90m248 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m55 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Image\").text(\"AccMeTheme.creditsimulationsicon\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m585 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/bbd298c4-f431-44d7-9441-aa8608cb9c6b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/bbd298c4-f431-44d7-9441-aa8608cb9c6b/location [39m[32m200[39m [90m162 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"bbd298c4-f431-44d7-9441-aa8608cb9c6b"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: bbd298c4-f431-44d7-9441-aa8608cb9c6b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m2649 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m48 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m377 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m371 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m270 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m313 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m283 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m422 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m2262 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d72ad14e-fe6c-4d5c-b622-4f12ca4698cc/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d72ad14e-fe6c-4d5c-b622-4f12ca4698cc/location [39m[32m200[39m [90m251 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d72ad14e-fe6c-4d5c-b622-4f12ca4698cc/clear[39m
+[35m[HTTP][39m [90m{"id":"d72ad14e-fe6c-4d5c-b622-4f12ca4698cc"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d72ad14e-fe6c-4d5c-b622-4f12ca4698cc/clear [39m[32m200[39m [90m212 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d72ad14e-fe6c-4d5c-b622-4f12ca4698cc/value[39m
+[35m[HTTP][39m [90m{"id":"d72ad14e-fe6c-4d5c-b622-4f12ca4698cc","text":"TOYOTA","value":["T","O","Y","O","T","A"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d72ad14e-fe6c-4d5c-b622-4f12ca4698cc/value [39m[32m200[39m [90m268 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m37 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Brand\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m1248 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d1902ed9-59aa-4ffd-951e-28ee8a7dd08a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/d1902ed9-59aa-4ffd-951e-28ee8a7dd08a/location [39m[32m200[39m [90m205 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"d1902ed9-59aa-4ffd-951e-28ee8a7dd08a"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: d1902ed9-59aa-4ffd-951e-28ee8a7dd08a
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m2274 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m83 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").resourceId(\"b7-l6-0-ListItem2\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m679 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/4254e279-255c-429a-b69e-a6c06dcfe88f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/4254e279-255c-429a-b69e-a6c06dcfe88f/location [39m[32m200[39m [90m217 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"4254e279-255c-429a-b69e-a6c06dcfe88f"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 4254e279-255c-429a-b69e-a6c06dcfe88f
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1900 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m86 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Type\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m802 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/968f48fc-e37f-4b71-8227-a20726d6e6e1/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/968f48fc-e37f-4b71-8227-a20726d6e6e1/location [39m[32m200[39m [90m196 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"968f48fc-e37f-4b71-8227-a20726d6e6e1"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 968f48fc-e37f-4b71-8227-a20726d6e6e1
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m2104 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m78 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Type\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m2394 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25/location [39m[32m200[39m [90m210 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25/clear[39m
+[35m[HTTP][39m [90m{"id":"0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25/clear [39m[32m200[39m [90m170 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25/value[39m
+[35m[HTTP][39m [90m{"id":"0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25","text":"ALL NEW AVANZA","value":["A","L","L"," ","N","E","W"," ","A","V","A","N","Z","A"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0a10cb8d-7ee2-4f3c-a393-a4bebb53bd25/value [39m[32m200[39m [90m991 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m90 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_Type\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m815 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/375ab0bb-90bb-4256-8af5-8414f3ffb020/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/375ab0bb-90bb-4256-8af5-8414f3ffb020/location [39m[32m200[39m [90m223 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"375ab0bb-90bb-4256-8af5-8414f3ffb020"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 375ab0bb-90bb-4256-8af5-8414f3ffb020
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1364 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m97 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").resourceId(\"b7-l8-0-ListItemType\").instance(70)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m714 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/623ae0bc-aeb7-463b-8355-90e2861325b3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/623ae0bc-aeb7-463b-8355-90e2861325b3/location [39m[32m200[39m [90m202 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"623ae0bc-aeb7-463b-8355-90e2861325b3"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 623ae0bc-aeb7-463b-8355-90e2861325b3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m2383 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m995 ms - 80[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m84 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m1017 ms - 80[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m89 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m860 ms - 80[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":1000,"y":1704}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":1000,"y":1065}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1356 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m85 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").resourceId(\"b7-Input_Model3\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m725 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/b9111688-b865-40d6-9bb5-5b035076260d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/b9111688-b865-40d6-9bb5-5b035076260d/location [39m[32m200[39m [90m207 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"b9111688-b865-40d6-9bb5-5b035076260d"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: b9111688-b865-40d6-9bb5-5b035076260d
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m2298 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m827 ms - 80[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"1300G A/TAIRBAG\"))"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element [39m[32m200[39m [90m3858 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m98 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").textContains(\"1300G A/TAIRBAG\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m189 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/c6f1ac4d-dfec-4523-92d6-9f8a3913c317/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/c6f1ac4d-dfec-4523-92d6-9f8a3913c317/location [39m[32m200[39m [90m154 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m9 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"c6f1ac4d-dfec-4523-92d6-9f8a3913c317"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: c6f1ac4d-dfec-4523-92d6-9f8a3913c317
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1728 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m82 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Spinner\").resourceId(\"b7-b8-List\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m744 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/dc433c1b-122f-402d-b52f-ca30de43680f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/dc433c1b-122f-402d-b52f-ca30de43680f/location [39m[32m200[39m [90m219 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"dc433c1b-122f-402d-b52f-ca30de43680f"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: dc433c1b-122f-402d-b52f-ca30de43680f
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1471 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m84 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").textContains(\"2018\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m165 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/ecdcb7e3-196a-4528-911d-fce5eca598b6/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/ecdcb7e3-196a-4528-911d-fce5eca598b6/location [39m[32m200[39m [90m125 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"ecdcb7e3-196a-4528-911d-fce5eca598b6"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: ecdcb7e3-196a-4528-911d-fce5eca598b6
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1074 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m81 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Spinner\").resourceId(\"b7-b10-List\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m688 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/45dd01b7-b75d-4251-9434-0a2fef9bee7c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/45dd01b7-b75d-4251-9434-0a2fef9bee7c/location [39m[32m200[39m [90m173 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"45dd01b7-b75d-4251-9434-0a2fef9bee7c"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 45dd01b7-b75d-4251-9434-0a2fef9bee7c
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1500 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m74 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").textContains(\"48\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m468 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0bba9c71-9f19-40a9-8b6b-8bd3046486a0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/0bba9c71-9f19-40a9-8b6b-8bd3046486a0/location [39m[32m200[39m [90m132 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"0bba9c71-9f19-40a9-8b6b-8bd3046486a0"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 0bba9c71-9f19-40a9-8b6b-8bd3046486a0
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/touch/perform [39m[32m200[39m [90m1612 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[32m200[39m [90m83 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"b7-Input_OTR\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/elements [39m[32m200[39m [90m811 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/e5a2ba53-62be-464c-b2a3-833761abb0a6/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9cec180f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 236de1e8-d65f-4cff-8c0b-266be0e25416 with 9cec180f-1063-40c5-874a-975c161ede55
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/e5a2ba53-62be-464c-b2a3-833761abb0a6/location [39m[32m200[39m [90m196 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/e5a2ba53-62be-464c-b2a3-833761abb0a6/clear[39m
+[35m[HTTP][39m [90m{"id":"e5a2ba53-62be-464c-b2a3-833761abb0a6"}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/element/e5a2ba53-62be-464c-b2a3-833761abb0a6/clear [39m[31m500[39m [90m54 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m923 ms - 52[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m17 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m18 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m364 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m18 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m415 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m16 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m368 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m13 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m616 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m18 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m16 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m380 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m429 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m17 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m425 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m15 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m13 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m368 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m12 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m377 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m12 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m17 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m364 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m16 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m12 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m362 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m15 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m369 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m13 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m13 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m379 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m14 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m17 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m485 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m18 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/window/rect [39m[31m500[39m [90m17 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/contexts [39m[32m200[39m [90m408 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/screenshot [39m[31m500[39m [90m15 ms - 562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 9cec180f-1063-40c5-874a-975c161ede55 from our master session list
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/9cec180f-1063-40c5-874a-975c161ede55 [39m[32m200[39m [90m2683 ms - 14[39m
+[35m[HTTP][39m [90m[39m

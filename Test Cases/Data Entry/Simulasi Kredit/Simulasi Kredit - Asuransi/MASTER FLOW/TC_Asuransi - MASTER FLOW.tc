@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Asuransi - MASTER FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>217c5140-6115-48cc-9132-c543a908b9d0</testCaseGuid>
+   <variable>
+      <defaultValue>'PT AAB REGULER OJK 2017(305001)'</defaultValue>
+      <description></description>
+      <id>b03e9b83-853b-455f-8061-fae620e6f75a</id>
+      <masked>false</masked>
+      <name>varAsuransi</name>
+   </variable>
+   <variable>
+      <defaultValue>'BANTEN, DKI, JABAR'</defaultValue>
+      <description></description>
+      <id>1bb98c19-3c14-48c3-8e99-765eac87dcba</id>
+      <masked>false</masked>
+      <name>varKodeWilayah</name>
+   </variable>
+</TestCaseEntity>

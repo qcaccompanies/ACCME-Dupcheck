@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Kategori Loan - Master FLOW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1e562ca-0bcb-4321-afa5-a4f9d45f4471</testCaseGuid>
+   <variable>
+      <defaultValue>'Approval'</defaultValue>
+      <description></description>
+      <id>f8d8fba5-a0b9-43c3-9aab-3728ff8458d9</id>
+      <masked>false</masked>
+      <name>varOpsiNPWP</name>
+   </variable>
+</TestCaseEntity>
