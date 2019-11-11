@@ -34,10 +34,17 @@
       <name>BIvarTempatLahir</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'SAM SURYA'</defaultValue>
       <description></description>
       <id>869b908d-5147-402c-967b-76e8a178d547</id>
       <masked>false</masked>
       <name>BIvarNama</name>
+   </variable>
+   <variable>
+      <defaultValue>'1995'</defaultValue>
+      <description></description>
+      <id>0c8e1fbf-6745-4515-80bc-860d3ae96819</id>
+      <masked>false</masked>
+      <name>varTahun</name>
    </variable>
 </TestCaseEntity>

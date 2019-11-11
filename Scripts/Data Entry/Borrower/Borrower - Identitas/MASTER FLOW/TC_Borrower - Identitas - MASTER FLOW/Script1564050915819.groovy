@@ -13,6 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('dynamic test case/open application'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNoKTP'), BIvarNoKTP, 0)
 
 Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNamaSesuaiIdentitas'), BIvarNama, 0)
@@ -28,6 +32,18 @@ Mobile.tap(findTestObject('dynamic object/pickListItem_viewView', [('text') : BI
 not_run: Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnVerifikasiKTP'), 0)
 
 CustomKeywords.'mobile.mobileSwipe.UpDown'(0.8, 0.2, 1000)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_TxtTanggalLahir'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('dynamic test case/calendar'), [('varTahun') : varTahun], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Click_Tanggal'), 0)
+
+Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Click_Tanggal'), 0)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
