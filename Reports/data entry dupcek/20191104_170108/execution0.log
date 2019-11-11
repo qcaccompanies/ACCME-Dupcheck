@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706565</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/data entry dupcek</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">data entry dupcek</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/data entry dupcek</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706584</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = 08944 - FATITAGH08944L</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">08944 - FATITAGH08944L</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706586</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706587</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.7.15.129</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.7.15.129</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706589</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706865</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Data Entry/TC_Data Entry</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Data Entry/TC_Data Entry</property>
+  <property name="description">test case data entry dari awal simulasi kredit hingga submit</property>
+  <property name="id">Test Cases/Data Entry/TC_Data Entry</property>
+  <property name="source">D:\\sam\\ACCME-Dupcheck-master\\Test Cases\\Data Entry\\TC_Data Entry.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706993</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varBrand = TOYOTA</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706995</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varType = ALL NEW YARIS</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706996</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varModel = 1.5 S TRD M/T</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706996</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTahun = 2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706997</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTenor = 48</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706997</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varOTR = 245400000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706998</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varRP = 61350000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706998</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varDealer = AI TSO-JKT LT.AGUNG</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706999</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varSales = ABDUL KHOLIK</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:46</date>
+  <millis>1572861706999</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varAsuransi = PT AAB REGULER OJK 2017(305001)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707000</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varKodeWilayah = BANTEN, DKI, JABAR</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707000</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varOpsiNPWP = Approval</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707001</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Borrower_varKTP = abc.jpg</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707001</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BIvarNoKTP = 3276112604960002</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707002</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BIvarAgama = ISLAM</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707002</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BIvarStatusPerkawinan = MARIED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707003</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BEvarRT = 458</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707003</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BEvarRW = 223</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707004</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BEvarKodePos = 10124</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707004</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varPembiayaan = NewCar</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707005</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BIvarNama = GERY DIMHASETYO</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707005</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BIvarTempatLahir = JAKARTA</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707852</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;dynamic test case/open application\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:47</date>
+  <millis>1572861707980</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/dynamic test case/open application</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/dynamic test case/open application</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/dynamic test case/open application</property>
+  <property name="source">D:\\sam\\ACCME-Dupcheck-master\\Test Cases\\dynamic test case\\open application.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:48</date>
+  <millis>1572861708057</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : appPath = relativeToAbsolutePath(apkname, getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">8</property>
+  <property name="stepIndex">1</property>
+  <property name="description">required for PathUtil to get the current app path</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:48</date>
+  <millis>1572861708228</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : appPath = relativeToAbsolutePath(apkname, getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:48</date>
+  <millis>1572861708230</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(appPath, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">10</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-11-04T17:01:48</date>
+  <millis>1572861708421</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;unicodeKeyboard&amp;apos;, &amp;apos;true&amp;apos;]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:48</date>
+  <millis>1572861708421</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;resetKeyboard&amp;apos;, &amp;apos;true&amp;apos;]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:48</date>
+  <millis>1572861708422</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:01:56</date>
+  <millis>1572861716720</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 2,165</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751275</millis>
+  <sequence>43</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751329</millis>
+  <sequence>44</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = RR8M30NJT3Z</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceId">RR8M30NJT3Z</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751330</millis>
+  <sequence>45</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = samsung SM-A505F (Android 9)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceName">samsung SM-A505F (Android 9)</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751331</millis>
+  <sequence>46</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = SM-A505F</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceModel">SM-A505F</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751331</millis>
+  <sequence>47</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = samsung</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceManufacturer">samsung</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751332</millis>
+  <sequence>48</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751333</millis>
+  <sequence>49</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751352</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;D:\\sam\\ACCME-Dupcheck-master\\AccMe.apk&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751353</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(appPath, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751353</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/dynamic test case/open application</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751353</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/dynamic test case/open application</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751358</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/dynamic test case/open application&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751359</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;dynamic test case/open application\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751360</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Data Entry/Simulasi Kredit/Simulasi Kredit/MASTER FLOW/TC_Simulasi Kredit - MASTER FLOW\&amp;quot;), [\&amp;quot;varBrand\&amp;quot;:varBrand, \&amp;quot;varType\&amp;quot;:varType, \&amp;quot;varModel\&amp;quot;:varModel, \&amp;quot;varTahun\&amp;quot;:varTahun, \&amp;quot;varTenor\&amp;quot;:varTenor, \&amp;quot;varOTR\&amp;quot;:varOTR, \&amp;quot;varRP\&amp;quot;:varRP, ... ], OPTIONAL)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751428</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Data Entry/Simulasi Kredit/Simulasi Kredit/MASTER FLOW/TC_Simulasi Kredit - MASTER FLOW</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Data Entry/Simulasi Kredit/Simulasi Kredit/MASTER FLOW/TC_Simulasi Kredit - MASTER FLOW</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Data Entry/Simulasi Kredit/Simulasi Kredit/MASTER FLOW/TC_Simulasi Kredit - MASTER FLOW</property>
+  <property name="source">D:\\sam\\ACCME-Dupcheck-master\\Test Cases\\Data Entry\\Simulasi Kredit\\Simulasi Kredit\\MASTER FLOW\\TC_Simulasi Kredit - MASTER FLOW.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">true</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751491</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varBrand = TOYOTA</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751492</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varType = ALL NEW YARIS</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751493</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varModel = 1.5 S TRD M/T</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751493</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTahun = 2018</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751494</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTenor = 48</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751494</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varOTR = 245400000</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751494</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varRP = 61350000</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751495</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varDealer = AI TSO-JKT LT.AGUNG</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751495</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varSales = ABDUL KHOLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751506</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varKd_paket = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751507</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varPembiayaan = NewCar</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751527</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varUsedCar = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751540</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varTipepembiayaan = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751551</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varkodepaket = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751859</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:31</date>
+  <millis>1572861751952</millis>
+  <sequence>79</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:41</date>
+  <millis>1572861761575</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:41</date>
+  <millis>1572861761576</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:41</date>
+  <millis>1572861761576</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:41</date>
+  <millis>1572861761601</millis>
+  <sequence>86</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:43</date>
+  <millis>1572861763316</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:43</date>
+  <millis>1572861763318</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-04T17:02:43</date>
+  <millis>1572861763318</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (varPembiayaan == \&amp;quot;NewCar\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:43</date>
+  <millis>1572861763320</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_new car\&amp;quot;), 0)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-11-04T17:02:43</date>
+  <millis>1572861763388</millis>
+  <sequence>94</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>

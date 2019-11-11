@@ -14,7 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Identitas/MASTER FLOW/TC_Borrower - Identitas - MASTER FLOW'), 
-    [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama, ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan], FailureHandling.STOP_ON_FAILURE)
+    [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama, ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BIvarTempatLahir') : BIvarTempatLahir
+        , ('BIvarNama') : BIvarNama], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 
@@ -44,7 +45,7 @@ WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Pekerjaan/MASTER
 CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 
 not_run: if (BvarUsahaTab == 'Ya') {
-    WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Usaha/MASTER FLOW/TC_Borrower - Usaha - MASTER FLOW'), 
+    not_run: WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Usaha/MASTER FLOW/TC_Borrower - Usaha - MASTER FLOW'), 
         [('BUvarPekerjaan') : BUvarPekerjaan, ('BUvarBadanUsaha') : BUvarBadanUsaha, ('BUvarNamaUsaha') : BUvarNamaUsaha
             , ('BUvarBidangUsaha') : BUvarBidangUsaha, ('BUvarSubBidangUsaha') : BUvarSubBidangUsaha, ('BUvarTanggalMulaiBisnis') : BUvarTanggalMulaiBisnis
             , ('BUvarAlamatKantor') : BUvarAlamatKantor, ('BUvarKodePos') : BUvarKodePos, ('BUvarRT') : BUvarRT, ('BUvarRW') : BUvarRW

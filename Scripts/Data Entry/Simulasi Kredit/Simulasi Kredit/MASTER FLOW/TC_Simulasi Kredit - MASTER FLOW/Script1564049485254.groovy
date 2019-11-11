@@ -18,6 +18,51 @@ Mobile.waitForElementPresent(findTestObject('Simulasi Kredit/Simulasi Kredit - S
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit'), 0)
 
+Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
+
+if (varPembiayaan == 'NewCar') {
+    Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_new car'), 0)
+}
+
+if (varPembiayaan == 'UsedCar') {
+    Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_used car'), 0)
+
+    if (varUsedCar == 'Regular') {
+        Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Regular'), 0)
+    }
+    
+    if (varUsedCar == 'Transaksi2Pihak') {
+        Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_transaksi 2 pihak'), 
+            0)
+
+        if (varTopup == 'ya') {
+            Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_topup ya'), 0)
+
+            Mobile.setText(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Nomor Kontrak Exsisting'), 
+                '', 0)
+        } else {
+            Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_topup tidak'), 0)
+        }
+    } else {
+        Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_inventory financing'), 
+            0)
+    }
+}
+
+if (varTipepembiayaan == 'syariah') {
+    Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Syariah'), 0)
+}
+
+if (varTipepembiayaan == 'konvensional') {
+    Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Konvensional'), 0)
+}
+
+if (varkodepaket == 'ya') {
+    Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_kode paket'), 0)
+
+    Mobile.setText(findTestObject('dynamic object/pickListItem_viewView', [('text') : varKd_paket]), '', 0)
+}
+
 Mobile.setText(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Brand'), varBrand, 0)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Brand'), 0)
@@ -72,8 +117,8 @@ Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_LOV Dealer'), 0)
 
-not_run: Mobile.setText(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Sales Dealer'), 
-    varSales, 0)
+Mobile.setText(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Sales Dealer'), varSales, 
+    0)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Sales Dealer'), 0)
 

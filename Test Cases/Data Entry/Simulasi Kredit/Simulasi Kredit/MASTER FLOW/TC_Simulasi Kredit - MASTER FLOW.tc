@@ -68,4 +68,39 @@
       <masked>false</masked>
       <name>varSales</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0d40f5c-615c-4063-bfa4-5866988695ad</id>
+      <masked>false</masked>
+      <name>varKd_paket</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cfe42df7-19c9-4f68-b959-65f5c4dbdfb9</id>
+      <masked>false</masked>
+      <name>varPembiayaan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9cc94cbc-85b8-42c2-b3c3-d2db09eaa15d</id>
+      <masked>false</masked>
+      <name>varUsedCar</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a5d372e-da24-4f0e-b5ab-6b4f8cc670d4</id>
+      <masked>false</masked>
+      <name>varTipepembiayaan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1086f03-f011-41e6-969d-af6514406936</id>
+      <masked>false</masked>
+      <name>varkodepaket</name>
+   </variable>
 </TestCaseEntity>

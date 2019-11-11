@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Identitas/MASTER FLOW/TC_Guarantor Identitas - MASTER FLOW'), 
+not_run: WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Identitas/MASTER FLOW/TC_Guarantor Identitas - MASTER FLOW'), 
     [('GIvarNIK') : GIvarNIK, ('GIvarAgama') : GIvarAgama, ('GIvarStatus') : GIvarStatus, ('GIvarNamaSesuaiIdentitas') : GIvarNamaSesuaiIdentitas
         , ('GIvarTempatLahir') : GIvarTempatLahir, ('GIvarAlamatLengkap') : GIvarAlamatLengkap, ('GIvarRT') : GIvarRT, ('GIvarRW') : GIvarRW
         , ('GIvarKodePos') : GIvarKodePos, ('GIvarNegaraAsal') : GIvarNegaraAsal, ('GIvarNomorPassport') : GIvarNomorPassport
@@ -24,7 +24,7 @@ CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 
 CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.8, 1000)
 
-WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Info Umum/MASTER FLOW/TC_Guarantor Info Umum - MASTER FLOW'), 
+not_run: WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Info Umum/MASTER FLOW/TC_Guarantor Info Umum - MASTER FLOW'), 
     [('GIUvarNamaLTS') : GIUvarNamaLTS, ('GIUvarNamaIbuK') : GIUvarNamaIbuK, ('GIUvarPendidikan') : GIUvarPendidikan, ('GIUvarEmail') : GIUvarEmail
         , ('GIUvarTseluler') : GIUvarTseluler, ('GIUvarAkunsosmed') : GIUvarAkunsosmed, ('GIUvarSosmed') : GIUvarSosmed, ('GIUvarNoNPWP') : GIUvarNoNPWP
         , ('GIUvarNamaNPWP') : GIUvarNamaNPWP, ('GIUvarKodeArea') : GIUvarKodeArea, ('GIUvarTelepon') : GIUvarTelepon], 
@@ -32,9 +32,9 @@ WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Info Umum/MAST
 
 CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 
-CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.8, 1000)
+not_run: CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.8, 1000)
 
-WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Domisili/MASTER FLOW/TC_Guarantor Domisili - MASTER FLOW'), 
+not_run: WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Domisili/MASTER FLOW/TC_Guarantor Domisili - MASTER FLOW'), 
     [('GDvarNegara') : GDvarNegara, ('GDvarPtjkAlamat') : GDvarPtjkAlamat, ('GDvarTngglSejakTahun') : GDvarTngglSejakTahun
         , ('GDvarStatusTT') : GDvarStatusTT, ('GDvarAlamatLengkap') : GDvarAlamatLengkap, ('GDvarRT') : GDvarRT, ('GDvarRW') : GDvarRW
         , ('GDvarKodePos') : GDvarKodePos, ('GDvarNoTlp1') : GDvarNoTlp1, ('GDvarNoTlp2') : GDvarNoTlp2, ('GDvarDomisili') : GDvarDomisili], 
@@ -46,7 +46,10 @@ CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.8, 1000)
 
 Mobile.tap(findTestObject('Guarantor/Guarantor - Pekerjaan/Guarantor_TabDetailPekerjaan'), 0)
 
-if (GvarPekerjaanTab == 'Ya') {
+WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Pekerjaan/MASTER FLOW/TC_Guarantor Pekerjaan - Dupcek'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: if (GvarPekerjaanTab == 'Ya') {
     WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Pekerjaan/MASTER FLOW/TC_Guarantor Pekerjaan - MASTER FLOW'), 
         [('GBvarJabatan') : GBvarJabatan, ('GBvarBadanUsaha') : GBvarBadanUsaha, ('GBvarBidangUsaha') : GBvarBidangUsaha
             , ('GBvarSubBdngUsaha') : GBvarSubBdngUsaha, ('GBvarPekerjaan') : GBvarPekerjaan, ('GBvarNamaPerusahaan') : GBvarNamaPerusahaan
@@ -61,7 +64,7 @@ CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 
 CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.8, 1000)
 
-if (GvarUsahaTab == 'Ya') {
+not_run: if (GvarUsahaTab == 'Ya') {
     WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Guarantor - Usaha/MASTER FLOW/TC_Guarantor Usaha - MASTER FLOW'), 
         [('GUvarPekerjaan') : GUvarPekerjaan, ('GUvarBadanUsaha') : GUvarBadanUsaha, ('GUvarNamaUsaha') : GUvarNamaUsaha
             , ('GUvarBidangUsaha') : GUvarBidangUsaha, ('GUvarSubBidangUsaha') : GUvarSubBidangUsaha, ('GUvarAlamat') : GUvarAlamat

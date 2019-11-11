@@ -15,9 +15,21 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNoKTP'), BIvarNoKTP, 0)
 
-Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnVerifikasiKTP'), 0)
+Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNamaSesuaiIdentitas'), BIvarNama, 0)
+
+Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnMasaBerlaku-SeumurHidup'), 0)
+
+Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpTempatLahir'), BIvarTempatLahir, 0)
+
+Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_InpTempatLahir'), 0)
+
+Mobile.tap(findTestObject('dynamic object/pickListItem_viewView', [('text') : BIvarTempatLahir]), 0)
+
+not_run: Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnVerifikasiKTP'), 0)
 
 CustomKeywords.'mobile.mobileSwipe.UpDown'(0.8, 0.2, 1000)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnCekDataPelanggan'), 0)
 

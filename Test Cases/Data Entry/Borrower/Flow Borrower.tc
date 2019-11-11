@@ -47,4 +47,18 @@
       <masked>false</masked>
       <name>BEvarKodePos</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3eaf3df5-c162-4595-9933-f47baa15ab7d</id>
+      <masked>false</masked>
+      <name>BIvarNama</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a895880-42d8-4b1e-a048-b6d5edf7d03e</id>
+      <masked>false</masked>
+      <name>BIvarTempatLahir</name>
+   </variable>
 </TestCaseEntity>

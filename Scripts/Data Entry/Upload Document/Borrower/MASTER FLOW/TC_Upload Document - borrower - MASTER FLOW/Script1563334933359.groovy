@@ -18,6 +18,8 @@ Mobile.tap(findTestObject('Upload Document/Upload Document - Item Upload/UnggahD
 if (Mobile.verifyElementVisible(findTestObject('Upload Document/Upload Document - Item Upload/UnggahDokumen_BtnGallery'), 
     3, FailureHandling.OPTIONAL)) {
     Mobile.tap(findTestObject('Upload Document/Upload Document - Item Upload/UnggahDokumen_BtnGallery'), 0)
+
+    Mobile.tap(findTestObject('dynamic object/pickListItem_TextView', [('text') : Borrower_varKTP]), 0)
 } else {
     Mobile.tap(findTestObject('Upload Document/android.view.View168 -  Gallery'), 0)
 }
