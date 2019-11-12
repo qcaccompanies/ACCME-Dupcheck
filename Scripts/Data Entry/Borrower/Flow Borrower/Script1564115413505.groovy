@@ -13,9 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('dynamic test case/open application'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Identitas/MASTER FLOW/TC_Borrower - Identitas - MASTER FLOW'), 
     [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama, ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BIvarTempatLahir') : BIvarTempatLahir
-        , ('BIvarNama') : BIvarNama], FailureHandling.STOP_ON_FAILURE)
+        , ('BIvarNama') : BIvarNama, ('varTahun') : varTahun], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 

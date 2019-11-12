@@ -27,7 +27,7 @@
       <name>BIvarStatusPerkawinan</name>
    </variable>
    <variable>
-      <defaultValue>'SUKABUMI'</defaultValue>
+      <defaultValue>'DEPOK'</defaultValue>
       <description></description>
       <id>0f96464f-0040-485b-8eff-d554566391b5</id>
       <masked>false</masked>

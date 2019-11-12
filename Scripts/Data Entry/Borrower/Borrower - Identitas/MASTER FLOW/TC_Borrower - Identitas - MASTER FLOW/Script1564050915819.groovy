@@ -19,9 +19,9 @@ Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNoKTP'), BIvarNoKTP, 0)
 
-Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNamaSesuaiIdentitas'), BIvarNama, 0)
-
 Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnMasaBerlaku-SeumurHidup'), 0)
+
+Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNamaSesuaiIdentitas'), BIvarNama, 0)
 
 Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpTempatLahir'), BIvarTempatLahir, 0)
 
@@ -41,11 +41,7 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('dynamic test case/calendar'), [('varTahun') : varTahun], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Click_Tanggal'), 0)
-
-Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Click_Tanggal'), 0)
-
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnCekDataPelanggan'), 0)
 

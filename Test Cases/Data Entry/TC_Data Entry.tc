@@ -139,21 +139,21 @@
       <name>BEvarKodePos</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'NewCar'</defaultValue>
       <description></description>
       <id>be274065-221c-444e-b5b3-c25c9a351f5d</id>
       <masked>false</masked>
       <name>varPembiayaan</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'SAM SURYA'</defaultValue>
       <description></description>
       <id>2fbdddb4-e270-4bf9-be5d-1190d10836b8</id>
       <masked>false</masked>
       <name>BIvarNama</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DEPOK'</defaultValue>
       <description></description>
       <id>704d8bde-45f6-49aa-b253-e5026ec2281d</id>
       <masked>false</masked>
