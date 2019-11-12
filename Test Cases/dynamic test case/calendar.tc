@@ -10,6 +10,6 @@
       <description></description>
       <id>45545657-209a-4fbd-9f7c-e8f1144cba4a</id>
       <masked>false</masked>
-      <name>varTahun</name>
+      <name>BIvarTahun</name>
    </variable>
 </TestCaseEntity>

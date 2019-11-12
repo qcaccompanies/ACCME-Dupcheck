@@ -162,5 +162,11 @@
          <value>BIvarTempatLahir</value>
          <variableId>704d8bde-45f6-49aa-b253-e5026ec2281d</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b114267-28ea-4d15-a604-cef5da903766</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -159,4 +159,11 @@
       <masked>false</masked>
       <name>BIvarTempatLahir</name>
    </variable>
+   <variable>
+      <defaultValue>'1995'</defaultValue>
+      <description></description>
+      <id>1b114267-28ea-4d15-a604-cef5da903766</id>
+      <masked>false</masked>
+      <name>BIvarTahun</name>
+   </variable>
 </TestCaseEntity>
