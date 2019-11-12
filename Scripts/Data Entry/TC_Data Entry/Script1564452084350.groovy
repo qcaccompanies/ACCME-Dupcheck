@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 //simulasi kredit
 WebUI.callTestCase(findTestCase('dynamic test case/open application'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -33,17 +35,13 @@ WebUI.callTestCase(findTestCase('Data Entry/Simulasi Kredit/Loan Detail/MASTER F
 WebUI.callTestCase(findTestCase('Data Entry/Upload Document/Borrower/MASTER FLOW/TC_Upload Document - borrower - MASTER FLOW'), 
     [('Borrower_varKTP') : Borrower_varKTP], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
-
-Mobile.waitForElementPresent(findTestObject('dynamic object/BtnBerikutnya'), 0)
-
 Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Flow Borrower'), [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama
         , ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BEvarRT') : BEvarRT, ('BEvarRW') : BEvarRW, ('BEvarKodePos') : BEvarKodePos
-        , ('BIvarTempatLahir') : BIvarTempatLahir, ('BIvarNama') : BIvarNama, ('varTahun') : varTahun], FailureHandling.STOP_ON_FAILURE)
+        , ('BIvarTempatLahir') : BIvarTempatLahir, ('BIvarNama') : BIvarNama, ('BIvarTahun') : BIvarTahun], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
@@ -51,9 +49,9 @@ Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-inpKTP = Mobile.getText(findTestObject('Coborrower/Coborrower - Identitas/Coborrower-Identitas-inputKTP'), 0)
+not_run: inpKTP = Mobile.getText(findTestObject('Coborrower/Coborrower - Identitas/Coborrower-Identitas-inputKTP'), 0)
 
-if (Mobile.verifyNotEqual(inpKTP, '', FailureHandling.OPTIONAL)) {
+not_run: if (Mobile.verifyNotEqual(inpKTP, '', FailureHandling.OPTIONAL)) {
     WebUI.callTestCase(findTestCase('Data Entry/Co-Borrower/Flow Coborrower'), [('CvarPekerjaanTab') : 'Ya', ('CvarUsahaTab') : 'Ya'
             , ('CIvarKTP') : '3471095110940001', ('CIvarNamaSesuaiIdentitas') : 'Fransiska Maya Lestari', ('CIvarTempatLahir') : 'YOGYAKARTA'
             , ('CIvarAlamatLengkap') : 'Keparakan Kidul MG 1 / 1075', ('CIvarRT') : '11', ('CIvarRW') : '11', ('CIvarKodePos') : '12420'

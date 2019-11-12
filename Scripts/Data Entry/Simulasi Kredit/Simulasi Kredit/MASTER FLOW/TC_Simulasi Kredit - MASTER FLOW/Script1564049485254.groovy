@@ -13,8 +13,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('dynamic test case/open application'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.waitForElementPresent(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit'), 
     0)
 

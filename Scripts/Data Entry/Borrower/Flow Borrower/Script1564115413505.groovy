@@ -13,10 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('dynamic test case/open application'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Identitas/MASTER FLOW/TC_Borrower - Identitas - MASTER FLOW'), 
     [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama, ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BIvarTempatLahir') : BIvarTempatLahir
         , ('BIvarNama') : BIvarNama, ('BIvarTahun') : BIvarTahun], FailureHandling.STOP_ON_FAILURE)
@@ -41,7 +37,7 @@ not_run: WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Domisil
 
 CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 
-Mobile.tap(findTestObject('Borrower/Borrower - Pekerjaan/Borrower_Pekerjaan_BtnDetailPekerjaan'), 0)
+Mobile.tap(findTestObject('Borrower/Borrower - Pekerjaan/Borrower - Pekerjaan - tab Detail Pekerjaan'), 0)
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Pekerjaan/MASTER FLOW/TC_Borrower - Pekerjaan - MASTER FLOW'), 
     [:], FailureHandling.STOP_ON_FAILURE)

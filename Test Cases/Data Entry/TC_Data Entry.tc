@@ -6,6 +6,13 @@
    <comment></comment>
    <testCaseGuid>fb4dc930-ff74-4a17-918c-a2922a28bfcf</testCaseGuid>
    <variable>
+      <defaultValue>'NewCar'</defaultValue>
+      <description></description>
+      <id>be274065-221c-444e-b5b3-c25c9a351f5d</id>
+      <masked>false</masked>
+      <name>varPembiayaan</name>
+   </variable>
+   <variable>
       <defaultValue>'TOYOTA'</defaultValue>
       <description></description>
       <id>009ac564-ff15-46cd-9832-51903144de9b</id>
@@ -13,14 +20,14 @@
       <name>varBrand</name>
    </variable>
    <variable>
-      <defaultValue>'AGYA'</defaultValue>
+      <defaultValue>'ALL NEW YARIS'</defaultValue>
       <description></description>
       <id>ecfed2d7-980f-4382-a8ad-38fca62472fb</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
-      <defaultValue>'1.0 G M/T - 001'</defaultValue>
+      <defaultValue>'1.5 S TRD M/T'</defaultValue>
       <description></description>
       <id>9d87d5be-e282-4bd5-8e78-50904f7a3400</id>
       <masked>false</masked>
@@ -34,28 +41,28 @@
       <name>varTahun</name>
    </variable>
    <variable>
-      <defaultValue>'36'</defaultValue>
+      <defaultValue>'48'</defaultValue>
       <description></description>
       <id>e00870a8-3793-4d9f-84c2-8b3df88ed699</id>
       <masked>false</masked>
       <name>varTenor</name>
    </variable>
    <variable>
-      <defaultValue>'200000000'</defaultValue>
+      <defaultValue>'245400000'</defaultValue>
       <description></description>
       <id>20bc10ce-6207-4933-927b-9a5153e548c4</id>
       <masked>false</masked>
       <name>varOTR</name>
    </variable>
    <variable>
-      <defaultValue>'60000000'</defaultValue>
+      <defaultValue>'61350000'</defaultValue>
       <description></description>
       <id>76eea316-0165-4499-a355-3295a97adf35</id>
       <masked>false</masked>
       <name>varRP</name>
    </variable>
    <variable>
-      <defaultValue>'AI TSO-JKT TEBET'</defaultValue>
+      <defaultValue>'AI TSO-JKT LT.AGUNG'</defaultValue>
       <description></description>
       <id>fad07985-47a1-403d-a042-3dbd8f758015</id>
       <masked>false</masked>
@@ -90,14 +97,14 @@
       <name>varOpsiNPWP</name>
    </variable>
    <variable>
-      <defaultValue>'Untitled.jpg'</defaultValue>
+      <defaultValue>'abc.jpg'</defaultValue>
       <description></description>
       <id>e7c58428-9535-4b18-b4da-884a1d4d181e</id>
       <masked>false</masked>
       <name>Borrower_varKTP</name>
    </variable>
    <variable>
-      <defaultValue>'3173021303891002'</defaultValue>
+      <defaultValue>'3276112604960002'</defaultValue>
       <description></description>
       <id>cc8c4c86-f0e9-4672-9503-4d94582e1a8c</id>
       <masked>false</masked>
@@ -109,6 +116,20 @@
       <id>1d56ae78-0e39-4273-a21a-3cda5628aac9</id>
       <masked>false</masked>
       <name>BIvarAgama</name>
+   </variable>
+   <variable>
+      <defaultValue>'GERY DIMHASETYO'</defaultValue>
+      <description></description>
+      <id>2fbdddb4-e270-4bf9-be5d-1190d10836b8</id>
+      <masked>false</masked>
+      <name>BIvarNama</name>
+   </variable>
+   <variable>
+      <defaultValue>'JAKARTA'</defaultValue>
+      <description></description>
+      <id>704d8bde-45f6-49aa-b253-e5026ec2281d</id>
+      <masked>false</masked>
+      <name>BIvarTempatLahir</name>
    </variable>
    <variable>
       <defaultValue>'UNMARRIED'</defaultValue>
@@ -139,30 +160,9 @@
       <name>BEvarKodePos</name>
    </variable>
    <variable>
-      <defaultValue>'NewCar'</defaultValue>
+      <defaultValue>'1996'</defaultValue>
       <description></description>
-      <id>be274065-221c-444e-b5b3-c25c9a351f5d</id>
-      <masked>false</masked>
-      <name>varPembiayaan</name>
-   </variable>
-   <variable>
-      <defaultValue>'SAM SURYA'</defaultValue>
-      <description></description>
-      <id>2fbdddb4-e270-4bf9-be5d-1190d10836b8</id>
-      <masked>false</masked>
-      <name>BIvarNama</name>
-   </variable>
-   <variable>
-      <defaultValue>'DEPOK'</defaultValue>
-      <description></description>
-      <id>704d8bde-45f6-49aa-b253-e5026ec2281d</id>
-      <masked>false</masked>
-      <name>BIvarTempatLahir</name>
-   </variable>
-   <variable>
-      <defaultValue>'1995'</defaultValue>
-      <description></description>
-      <id>1b114267-28ea-4d15-a604-cef5da903766</id>
+      <id>30902e01-9413-4da7-88e1-7132e36b3826</id>
       <masked>false</masked>
       <name>BIvarTahun</name>
    </variable>

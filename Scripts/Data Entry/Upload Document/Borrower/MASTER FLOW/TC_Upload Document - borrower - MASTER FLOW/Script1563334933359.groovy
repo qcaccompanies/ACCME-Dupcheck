@@ -26,5 +26,5 @@ Mobile.scrollToText(Borrower_varKTP, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('dynamic object/pickListItem_TextView', [('text') : Borrower_varKTP]), 0)
 
-Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
