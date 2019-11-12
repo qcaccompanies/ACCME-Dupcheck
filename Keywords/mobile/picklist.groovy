@@ -101,7 +101,7 @@ public class picklist {
 			}
 		}
 	}
-	
+
 	@Keyword
 	def Listsamping(listObject, FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE) {
 		try {

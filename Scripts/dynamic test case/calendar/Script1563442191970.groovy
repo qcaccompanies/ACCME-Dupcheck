@@ -48,5 +48,7 @@ switch (varScrollUpDown.toString()) {
 
 Mobile.tap(findTestObject('dynamic object/pickListItem_TextView', [('text') : varTahun]), 0)
 
+Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Click_Tanggal'), 0)
+
 Mobile.tap(findTestObject('dynamic object/Calendar_TxtSetel'), 0)
 
