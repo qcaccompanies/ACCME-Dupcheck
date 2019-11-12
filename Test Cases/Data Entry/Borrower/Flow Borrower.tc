@@ -61,4 +61,11 @@
       <masked>false</masked>
       <name>BIvarTempatLahir</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6708c773-31d4-40ff-be2d-66eb246392c9</id>
+      <masked>false</masked>
+      <name>varTahun</name>
+   </variable>
 </TestCaseEntity>
