@@ -40,8 +40,8 @@ Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
 Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Flow Borrower'), [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama
-        , ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BEvarRT') : BEvarRT, ('BEvarRW') : BEvarRW, ('BEvarKodePos') : BEvarKodePos
-        , ('BIvarTempatLahir') : BIvarTempatLahir, ('BIvarNama') : BIvarNama, ('BIvarTahun') : BIvarTahun], FailureHandling.STOP_ON_FAILURE)
+        , ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BEvarRT') : BEvarRT, ('BEvarRW') : BEvarRW, ('BIvarNama') : BIvarNama
+        , ('BIvarTempatLahir') : BIvarTempatLahir, ('BIvarTahun') : BIvarTahun], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
@@ -84,9 +84,9 @@ not_run: if (Mobile.verifyNotEqual(inpKTP, '', FailureHandling.OPTIONAL)) {
     Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
 }
 
-inpKTP = Mobile.getText(findTestObject('Guarantor/Guarantor - Identitas/Guarantor_Nomor Identitas'), 0)
+not_run: inpKTP = Mobile.getText(findTestObject('Guarantor/Guarantor - Identitas/Guarantor_Nomor Identitas'), 0)
 
-if (Mobile.verifyNotEqual(inpKTP, '', FailureHandling.OPTIONAL)) {
+not_run: if (Mobile.verifyNotEqual(inpKTP, '', FailureHandling.OPTIONAL)) {
     WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Flow Guarantor'), [('GvarPekerjaanTab') : 'Ya', ('GvarUsahaTab') : 'Ya'
             , ('GIvarNIK') : '3276051701950001', ('GIvarAgama') : 'ISLAM', ('GIvarStatus') : 'UNMARRIED', ('GIvarNamaSesuaiIdentitas') : 'Fransiska Maya Lestari'
             , ('GIvarTempatLahir') : 'YOGYAKARTA', ('GIvarAlamatLengkap') : 'Keparakan Kidul MG 1 / 1075', ('GIvarRT') : '11'
@@ -141,6 +141,8 @@ not_run: WebUI.callTestCase(findTestCase('Data Entry/Guarantor/Flow Guarantor'),
         , ('GUvarRW') : '10', ('GUvarKodePos') : '21462', ('GUvarPtnjkAlamat') : 'DEKAT ALFAMART', ('GUIvarTeleponseluler') : '08912345678'
         , ('GUvarWebsite') : 'MAJUTERUS.CO.ID', ('GUvarJenisSosmed') : 'FACEBOOK', ('GUvarSosmed') : 'MAJUTERUS'], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
+
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Data Entry/Penghasilan/MASTER FLOW/TC_Penghasilan - MASTER FLOW'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -154,8 +156,7 @@ Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
 WebUI.callTestCase(findTestCase('Data Entry/Summary Outstanding/MASTER FLOW/TC_Summary Outstanding - MASTER FLOW'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit'), 
-    60)
+Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

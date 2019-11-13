@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 Mobile.setText(findTestObject('Borrower/Borrower - Emergency/Borrower_Emergency_InpRT'), BEvarRT, 0)
 
@@ -19,5 +21,5 @@ Mobile.setText(findTestObject('Borrower/Borrower - Emergency/Borrower_Emergency_
 
 Mobile.tap(findTestObject('Borrower/Borrower - Emergency/Borrower_Emergency_InpKodePos'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Borrower/Borrower - Emergency/Borrower_Emergency_LOVKodePos'), 0)
+CustomKeywords.'mobile.picklist.List'(findTestObject('Borrower/Borrower - Emergency/Borrower_Emergency_LOVKodePos'), FailureHandling.STOP_ON_FAILURE)
 

@@ -47,7 +47,7 @@ Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnCheckBox'),
 
 Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnConfirm'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'mobile.mobileSwipe.UpDown'(0.8, 0.2, 1000)
 

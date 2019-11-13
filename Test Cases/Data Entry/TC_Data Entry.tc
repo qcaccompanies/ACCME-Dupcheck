@@ -153,13 +153,6 @@
       <name>BEvarRW</name>
    </variable>
    <variable>
-      <defaultValue>'10124'</defaultValue>
-      <description></description>
-      <id>9c90a9d2-a056-4da2-aa47-6037604d2a98</id>
-      <masked>false</masked>
-      <name>BEvarKodePos</name>
-   </variable>
-   <variable>
       <defaultValue>'1996'</defaultValue>
       <description></description>
       <id>30902e01-9413-4da7-88e1-7132e36b3826</id>

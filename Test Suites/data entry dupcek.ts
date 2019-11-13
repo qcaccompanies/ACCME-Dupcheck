@@ -141,12 +141,6 @@
       <variableLink>
          <testDataLinkId>1b700ae6-14ed-4088-b446-ecad4f4c9c9e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>BEvarKodePos</value>
-         <variableId>9c90a9d2-a056-4da2-aa47-6037604d2a98</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>1b700ae6-14ed-4088-b446-ecad4f4c9c9e</testDataLinkId>
-         <type>DATA_COLUMN</type>
          <value>varpembiayaan</value>
          <variableId>be274065-221c-444e-b5b3-c25c9a351f5d</variableId>
       </variableLink>

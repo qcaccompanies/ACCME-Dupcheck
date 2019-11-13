@@ -60,5 +60,5 @@ CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 CustomKeywords.'mobile.mobileSwipe.UpDown'(0.2, 0.8, 1000)
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Emergency Contact/MASTER FLOW/TC_Borrower - Emergency Contact - MASTER FLOW'), 
-    [('BEvarRT') : BEvarRT, ('BEvarRW') : BEvarRW, ('BEvarKodePos') : BEvarKodePos], FailureHandling.STOP_ON_FAILURE)
+    [('BEvarRT') : BEvarRT, ('BEvarRW') : BEvarRW], FailureHandling.STOP_ON_FAILURE)
 
