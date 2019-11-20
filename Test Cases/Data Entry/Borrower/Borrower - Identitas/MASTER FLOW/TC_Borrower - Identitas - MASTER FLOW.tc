@@ -47,4 +47,11 @@
       <masked>false</masked>
       <name>BIvarTahun</name>
    </variable>
+   <variable>
+      <defaultValue>'LK'</defaultValue>
+      <description></description>
+      <id>2e3f3a0f-d6c8-4e15-ac91-2cb4db9cb454</id>
+      <masked>false</masked>
+      <name>BIvarJenkel</name>
+   </variable>
 </TestCaseEntity>

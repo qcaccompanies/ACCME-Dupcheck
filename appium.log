@@ -1,27 +1,27 @@
-[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Welcome to Appium v1.8.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 60955
+[35m[Appium][39m   port: 7713
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   chromeDriverPort: 60956
-[35m[Appium][39m   tmpDir: C:\Users\15420\AppData\Local\Temp\\Katalon\Appium\Temp1573549691200
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60955
+[35m[Appium][39m   chromeDriverPort: 7714
+[35m[Appium][39m   tmpDir: C:\Users\IT-SER~1\AppData\Local\Temp\\Katalon\Appium\Temp1573788516474
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:7713
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 83[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 83[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\15420\\git\\ACCME-Dupcheck\\AccMe.apk","noReset":true,"deviceId":"","deviceName":"samsung SM-A505F (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"platformName":"Android","udid":"RR8M30NJT6T","resetKeyboard":true,"systemPort":60969},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\15420\\git\\ACCME-Dupcheck\\AccMe.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"samsung SM-A505F (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:resetKeyboard":true,"appium:systemPort":60969,"appium:udid":"RR8M30NJT6T","appium:unicodeKeyboard":true}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\IT-Services\\git\\ACCME-Dupcheck1\\AccMe.apk","noReset":true,"deviceId":"","deviceName":"samsung SM-A505F (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"platformName":"Android","udid":"RR8M30NJT3Z","resetKeyboard":true,"systemPort":7730},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\IT-Services\\git\\ACCME-Dupcheck1\\AccMe.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"samsung SM-A505F (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:resetKeyboard":true,"appium:systemPort":7730,"appium:udid":"RR8M30NJT3Z","appium:unicodeKeyboard":true}]}}[39m
 [35m[BaseDriver][39m The capabilities ["deviceId","platform"] are not standard capabilities and should have an extension prefix
-[35m[Appium][39m Appium v1.12.1 creating new AndroidUiautomator2Driver (v1.33.0) session
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.12.0) session
 [35m[Appium][39m Capabilities:
 [35m[Appium][39m   deviceId: 
 [35m[Appium][39m   platform: ANDROID
 [35m[Appium][39m   platformName: android
-[35m[Appium][39m   app: C:\Users\15420\git\ACCME-Dupcheck\AccMe.apk
+[35m[Appium][39m   app: C:\Users\IT-Services\git\ACCME-Dupcheck1\AccMe.apk
 [35m[Appium][39m   autoGrantPermissions: true
 [35m[Appium][39m   automationName: uiautomator2
 [35m[Appium][39m   deviceName: samsung SM-A505F (Android 9)
@@ -30,76 +30,75 @@
 [35m[Appium][39m   noReset: true
 [35m[Appium][39m   platformVersion: 9
 [35m[Appium][39m   resetKeyboard: true
-[35m[Appium][39m   systemPort: 60969
-[35m[Appium][39m   udid: RR8M30NJT6T
+[35m[Appium][39m   systemPort: 7730
+[35m[Appium][39m   udid: RR8M30NJT3Z
 [35m[Appium][39m   unicodeKeyboard: true
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
-[35m[BaseDriver][39m Session created with session id: ec1b4071-befd-49b5-b935-4a21d27e964d
-[35m[BaseDriver][39m Using local app 'C:\Users\15420\git\ACCME-Dupcheck\AccMe.apk'
+[35m[BaseDriver][39m Session created with session id: 4ca6b654-e872-42af-8ff0-4a303649a41b
+[35m[BaseDriver][39m Using local app 'C:\Users\IT-Services\git\ACCME-Dupcheck1\AccMe.apk'
+[35m[AndroidDriver][39m Java version is: 1.8.0_181
 [35m[ADB][39m Checking whether adb is present
-[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\15420\.katalon\tools\android_sdk' (newest first):
-[35m[ADB][39m     C:/Users/15420/.katalon/tools/android_sdk/build-tools/29.0.2
-[35m[ADB][39m Using adb.exe from C:\Users\15420\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\IT-Services\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/IT-Services/.katalon/tools/android_sdk/build-tools/28.0.3
+[35m[ADB][39m Using adb.exe from C:\Users\IT-Services\.katalon\tools\android_sdk\platform-tools\adb.exe
 [35m[AndroidDriver][39m Retrieving device list
-[35m[AndroidDriver][39m Using device: RR8M30NJT6T
-[35m[UiAutomator2][39m Relaxing hidden api policy
-[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\15420\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\15420\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\15420\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\15420\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\15420\.katalon\tools\android_sdk\build-tools\29.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\15420\.katalon\tools\android_sdk'?
+[35m[AndroidDriver][39m Using device: RR8M30NJT3Z
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\IT-Services\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\IT-Services\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\IT-Services\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\IT-Services\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\IT-Services\.katalon\tools\android_sdk\build-tools\28.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\IT-Services\.katalon\tools\android_sdk'?
 [35m[ADB][39m Checking whether aapt is present
-[35m[ADB][39m Using aapt.exe from C:\Users\15420\.katalon\tools\android_sdk\build-tools\29.0.2\aapt.exe
+[35m[ADB][39m Using aapt.exe from C:\Users\IT-Services\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
 [35m[ADB][39m Extracting package and launch activity from manifest
 [35m[ADB][39m Package name: 'com.outsystemsenterprise.accdev1.AccMeMobile2'
 [35m[ADB][39m Main activity name: 'com.outsystemsenterprise.accdev1.AccMeMobile2.MainActivity'
-[35m[ADB][39m Using apksigner.bat from C:\Users\15420\.katalon\tools\android_sdk\build-tools\29.0.2\apksigner.bat
-[35m[UiAutomator2][39m Server packages are not going to be (re)installed
-[35m[UiAutomator2][39m Starting UIAutomator2 server 3.4.0
-[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\15420\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.4.0.apk' and test from 'C:\Users\15420\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
-[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
-[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
-[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[ADB][39m Getting device platform version
+[35m[ADB][39m Using apksigner.bat from C:\Users\IT-Services\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\IT-Services\.katalon\tools\android_sdk\build-tools\28.0.3\zipalign.exe
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[35m[ADB][39m Successfully extracted 23 strings from 'C:\Users\IT-Services\git\ACCME-Dupcheck1\AccMe.apk' resources for '(default)' configuration
+[35m[UiAutomator2][39m Starting uiautomator2 server 1.12.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\IT-Services\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\IT-Services\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Running command: 'adb -s RR8M30NJT3Z shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.outsystemsenterprise.accdev1.AccMeMobile2/com.outsystemsenterprise.accdev1.AccMeMobile2.MainActivity'. Starting it ourselves
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session ec1b4071-befd-49b5-b935-4a21d27e964d added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m30942 ms - 1340[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 4ca6b654-e872-42af-8ff0-4a303649a41b added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m33325 ms - 1352[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d [39m[32m200[39m [90m93 ms - 1272[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b [39m[32m200[39m [90m53 ms - 1284[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d [39m[32m200[39m [90m47 ms - 1272[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b [39m[32m200[39m [90m64 ms - 1284[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 55[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b/timeouts [39m[32m200[39m [90m5 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (ec1b4071)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId adb325c5-398f-4549-b07b-21ae048d8401 with ec1b4071-befd-49b5-b935-4a21d27e964d
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/source [39m[32m200[39m [90m441 ms - 1973[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId 0c02b9d3-5cff-4c3d-b58d-4bd9f8673cd0 with 4ca6b654-e872-42af-8ff0-4a303649a41b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b/source [39m[32m200[39m [90m232 ms - 1495[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/screenshot [39m[32m200[39m [90m601 ms - 37712[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b/screenshot [39m[32m200[39m [90m601 ms - 31870[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/source[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (ec1b4071)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId adb325c5-398f-4549-b07b-21ae048d8401 with ec1b4071-befd-49b5-b935-4a21d27e964d
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/source [39m[32m200[39m [90m25613 ms - 344428[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d/screenshot [39m[32m200[39m [90m776 ms - 120536[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session ec1b4071-befd-49b5-b935-4a21d27e964d from our master session list
-[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/ec1b4071-befd-49b5-b935-4a21d27e964d [39m[32m200[39m [90m2760 ms - 14[39m
+[35m[Appium][39m Removing session 4ca6b654-e872-42af-8ff0-4a303649a41b from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:7730
+[35m[UiAutomator2][39m Unable to reset IME: Error executing adbExec. Original error: 'Command 'C\:\\Users\\IT-Services\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s RR8M30NJT3Z shell ime set com.sec.android.inputmethod/.SamsungKeypad' exited with code 1'; Stderr: 'error: device 'RR8M30NJT3Z' not found'; Code: '1'
+[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command 'C\:\\Users\\IT-Services\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s RR8M30NJT3Z shell am force-stop com.outsystemsenterprise.accdev1.AccMeMobile2' exited with code 1'; Stderr: 'error: device 'RR8M30NJT3Z' not found'; Code: '1'
+[35m[UiAutomator2][39m Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C\:\\Users\\IT-Services\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s RR8M30NJT3Z forward --remove tcp\:7730' exited with code 1'; Stderr: 'error: device 'RR8M30NJT3Z' not found'; Code: '1''
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/4ca6b654-e872-42af-8ff0-4a303649a41b [39m[32m200[39m [90m27084 ms - 14[39m
 [35m[HTTP][39m [90m[39m

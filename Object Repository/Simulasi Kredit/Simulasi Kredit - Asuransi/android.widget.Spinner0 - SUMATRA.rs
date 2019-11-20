@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Asuransi_KDWilayah</name>
+   <name>android.widget.Spinner0 - SUMATRA</name>
    <tag></tag>
-   <elementGuidId>8e868998-1b98-4d55-ad2a-bccefdbf4f6e</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -129,7 +129,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>988</value>
+      <value>1035</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -41,7 +41,7 @@ Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Flow Borrower'), [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama
         , ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BEvarRT') : BEvarRT, ('BEvarRW') : BEvarRW, ('BIvarNama') : BIvarNama
-        , ('BIvarTempatLahir') : BIvarTempatLahir, ('BIvarTahun') : BIvarTahun], FailureHandling.STOP_ON_FAILURE)
+        , ('BIvarTempatLahir') : BIvarTempatLahir, ('BIvarTahun') : BIvarTahun, ('BIvarJenkel') : BIvarJenkel], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 

@@ -157,10 +157,16 @@
          <variableId>704d8bde-45f6-49aa-b253-e5026ec2281d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>1b700ae6-14ed-4088-b446-ecad4f4c9c9e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BIvarTahun</value>
          <variableId>30902e01-9413-4da7-88e1-7132e36b3826</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1b700ae6-14ed-4088-b446-ecad4f4c9c9e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BIvarJenkel</value>
+         <variableId>f890d275-8513-4c82-afb5-cdd9734499aa</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

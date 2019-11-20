@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Identitas/MASTER FLOW/TC_Borrower - Identitas - MASTER FLOW'), 
     [('BIvarNoKTP') : BIvarNoKTP, ('BIvarAgama') : BIvarAgama, ('BIvarStatusPerkawinan') : BIvarStatusPerkawinan, ('BIvarTempatLahir') : BIvarTempatLahir
-        , ('BIvarNama') : BIvarNama, ('BIvarTahun') : BIvarTahun], FailureHandling.STOP_ON_FAILURE)
+        , ('BIvarNama') : BIvarNama, ('BIvarTahun') : BIvarTahun, ('BIvarJenkel') : BIvarJenkel], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 

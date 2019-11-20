@@ -21,6 +21,8 @@ Mobile.setText(findTestObject('Simulasi Kredit/Simulasi Kredit - Asuransi/Asuran
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Asuransi/Asuransi_LOV Nama Asuransi'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Asuransi/Asuransi_KDWilayah'), 0)
 
 Mobile.tap(findTestObject('dynamic object/pickListItem_checkedTextView', [('text') : varKodeWilayah]), 0)
