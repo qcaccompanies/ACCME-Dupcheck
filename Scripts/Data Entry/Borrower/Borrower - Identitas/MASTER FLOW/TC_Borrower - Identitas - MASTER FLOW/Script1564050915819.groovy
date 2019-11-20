@@ -15,10 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('dynamic test case/open application'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.setText(findTestObject('Borrower/Borrower - Identitas/Borrower_InpNoKTP'), BIvarNoKTP, 0)
 
 Mobile.tap(findTestObject('Borrower/Borrower - Identitas/Borrower_BtnMasaBerlaku-SeumurHidup'), 0)
