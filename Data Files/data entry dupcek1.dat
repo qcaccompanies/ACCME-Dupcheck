@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>42ddb15e-461c-4e0f-a489-90fa7dbade18</dataFileGUID>
-   <dataSourceUrl>D:\sam\Automatic Testing\ACCME-Dupcheck-master\data\dupcheck1.xls</dataSourceUrl>
+   <dataSourceUrl>C:\Users\15420\git\ACCME-Dupcheck\data\dupcheck1.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

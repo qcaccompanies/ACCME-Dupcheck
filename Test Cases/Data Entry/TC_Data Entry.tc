@@ -20,21 +20,21 @@
       <name>varBrand</name>
    </variable>
    <variable>
-      <defaultValue>'ALL NEW YARIS'</defaultValue>
+      <defaultValue>'AGYA'</defaultValue>
       <description></description>
       <id>ecfed2d7-980f-4382-a8ad-38fca62472fb</id>
       <masked>false</masked>
       <name>varType</name>
    </variable>
    <variable>
-      <defaultValue>'1.5 S TRD M/T'</defaultValue>
+      <defaultValue>'001 - 1.0 G M/T - 1 TON MB'</defaultValue>
       <description></description>
       <id>9d87d5be-e282-4bd5-8e78-50904f7a3400</id>
       <masked>false</masked>
       <name>varModel</name>
    </variable>
    <variable>
-      <defaultValue>'2018'</defaultValue>
+      <defaultValue>'2020'</defaultValue>
       <description></description>
       <id>8d228fef-df3e-4d4e-982b-ebb0dbb71dd7</id>
       <masked>false</masked>

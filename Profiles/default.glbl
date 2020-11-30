@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AccMe.apk'</initValue>
+      <initValue>'AccMe (1).apk'</initValue>
       <name>apkname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

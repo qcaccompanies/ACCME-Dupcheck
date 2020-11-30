@@ -37,7 +37,7 @@ not_run: WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Domisil
 
 CustomKeywords.'mobile.mobileSwipe.RightLeft'(0.9, 0.5, 1000)
 
-Mobile.tap(findTestObject('Borrower/Borrower - Pekerjaan/Borrower - Pekerjaan - tab Detail Pekerjaan'), 0)
+Mobile.tap(findTestObject('Borrower/Borrower - Pekerjaan/Borrower - Pekerjaan - tab Detail Pekerjaan'), 0, FailureHandling.OPTIONAL)
 
 WebUI.callTestCase(findTestCase('Data Entry/Borrower/Borrower - Pekerjaan/MASTER FLOW/TC_Borrower - Pekerjaan - MASTER FLOW'), 
     [:], FailureHandling.STOP_ON_FAILURE)

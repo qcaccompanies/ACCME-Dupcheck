@@ -18,6 +18,8 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 //simulasi kredit
 WebUI.callTestCase(findTestCase('dynamic test case/open application'), [:], FailureHandling.STOP_ON_FAILURE)
 
+not_run: WebUI.callTestCase(findTestCase('Login/Login ACCME'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Data Entry/Simulasi Kredit/Simulasi Kredit/MASTER FLOW/TC_Simulasi Kredit - MASTER FLOW'), 
     [('varBrand') : varBrand, ('varType') : varType, ('varModel') : varModel, ('varTahun') : varTahun, ('varTenor') : varTenor
         , ('varOTR') : varOTR, ('varRP') : varRP, ('varDealer') : varDealer, ('varSales') : varSales, ('varPembiayaan') : varPembiayaan], 
@@ -152,6 +154,14 @@ Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
+
+not_run: if (varPembiayaan == 'UsedCar') {
+    WebUI.callTestCase(findTestCase('Data Entry/Data Asset/MASTER FLOW/TC_Data Asset - MASTER FLOW'), [('varNomorRangka') : ''
+            , ('varNomorMesin') : '', ('varNamaBPKB') : '', ('varNomorBPKB') : '', ('varNomorPolisiDepan') : '', ('varNomorPolisiTengah') : ''
+            , ('varNomorPolisiBelakang') : ''], FailureHandling.STOP_ON_FAILURE)
+}
+
+not_run: Mobile.tap(findTestObject('dynamic object/BtnBerikutnya'), 0)
 
 WebUI.callTestCase(findTestCase('Data Entry/Summary Outstanding/MASTER FLOW/TC_Summary Outstanding - MASTER FLOW'), [:], 
     FailureHandling.STOP_ON_FAILURE)

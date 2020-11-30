@@ -23,13 +23,13 @@ Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Loan Detail/LoanDetail_Hitung'), 0)
 
-Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Loan Detail/LoanDetail_Berikutnya'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Loan Detail/LoanDetail_Berikutnya'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 

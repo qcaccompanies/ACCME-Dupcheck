@@ -26,9 +26,9 @@
          <id>1b700ae6-14ed-4088-b446-ecad4f4c9c9e</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>26-50</value>
          </iterationEntity>
-         <testDataId>Data Files/dupcek1</testDataId>
+         <testDataId>Data Files/data entry dupcek6</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>1b700ae6-14ed-4088-b446-ecad4f4c9c9e</testDataLinkId>

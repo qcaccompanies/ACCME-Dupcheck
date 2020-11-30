@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="data entry dupcek" time="56.281" tests="1" failures="0" errors="0">
+   <testsuite name="data entry dupcek" tests="1" failures="0" errors="0" time="56.281" timestamp="2019-11-21 20:29:21" hostname="15420 - FATITQC15420L.local" id="Test Suites/data entry dupcek">
+      <properties>
+         <property name="deviceName" value="samsung SM-A505F (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\15420\\git\\ACCME-Dupcheck\\Reports\\20191121_202914\\data entry dupcek\\20191121_202914"/>
+         <property name="logFiles" value="C:\\Users\\15420\\git\\ACCME-Dupcheck\\Reports\\20191121_202914\\data entry dupcek\\20191121_202914\\appium.log, C:\\Users\\15420\\git\\ACCME-Dupcheck\\Reports\\20191121_202914\\data entry dupcek\\20191121_202914\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="15420 - FATITQC15420L.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.12.1\&quot;}},\&quot;sessionId\&quot;:null}"/>
+         <property name="katalonVersion" value="7.0.7.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.12.1"/>
+         <property name="deviceModel" value="SM-A505F"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8M30NJT6T"/>
+         <property name="deviceName" value="samsung SM-A505F (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Data Entry/TC_Data Entry" time="54.731" classname="Test Cases/Data Entry/TC_Data Entry" status="INCOMPLETE">
+         <system-out><![CDATA[2019-11-21 20:29:22 - [TEST_CASE][INCOMPLETE] - Test Cases/Data Entry/TC_Data Entry: null
+
+2019-11-21 20:29:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("dynamic test case/open application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/dynamic test case/open application' successfully
+
+2019-11-21 20:29:25 - [TEST_CASE][PASSED] - Test Cases/dynamic test case/open application: Test Cases/dynamic test case/open application
+
+2019-11-21 20:29:26 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(apkname, getProjectDir()): null
+
+2019-11-21 20:29:26 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: 'C:\Users\15420\git\ACCME-Dupcheck\AccMe.apk'
+
+2019-11-21 20:29:26 - [MESSAGE][INFO] - User set preference: ['unicodeKeyboard', 'true']
+
+2019-11-21 20:29:26 - [MESSAGE][INFO] - User set preference: ['resetKeyboard', 'true']
+
+2019-11-21 20:29:26 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2019-11-21 20:29:36 - [MESSAGE][INFO] - Appium server started on port 51,811
+
+2019-11-21 20:30:16 - [MESSAGE][PASSED] - Started app at: 'C:\Users\15420\git\ACCME-Dupcheck\AccMe.apk'
+
+2019-11-21 20:30:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/dynamic test case/open application' successfully
+
+2019-11-21 20:30:16 - [TEST_STEP][INCOMPLETE] - callTestCase(findTestCase("Data Entry/Simulasi Kredit/Simulasi Kredit/MASTER FLOW/TC_Simulasi Kredit - MASTER FLOW"), ["varBrand":varBrand, "varType":varType, "varModel":varModel, "varTahun":varTahun, "varTenor":varTenor, "varOTR":varOTR, "varRP":varRP, ... ], OPTIONAL): null
+
+2019-11-21 20:30:16 - [TEST_CASE][INCOMPLETE] - Test Cases/Data Entry/Simulasi Kredit/Simulasi Kredit/MASTER FLOW/TC_Simulasi Kredit - MASTER FLOW: null
+
+2019-11-21 20:30:17 - [TEST_STEP][INCOMPLETE] - waitForElementPresent(findTestObject("Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Simulasi Kredit"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-21 20:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30']]></system-out>
+         <system-err><![CDATA[2019-11-21 20:29:22 - [TEST_CASE][INCOMPLETE] - Test Cases/Data Entry/TC_Data Entry: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-21 20:29:21 - [TEST_SUITE][INCOMPLETE] - data entry dupcek: null]]></system-out>
+      <system-err><![CDATA[2019-11-21 20:29:21 - [TEST_SUITE][INCOMPLETE] - data entry dupcek: null]]></system-err>
+   </testsuite>
+</testsuites>

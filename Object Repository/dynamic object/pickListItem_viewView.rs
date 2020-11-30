@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//*[@class = 'android.view.View' and (contains(text(), '${text}') or contains(., '${text}')) and @enabled = 'true']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

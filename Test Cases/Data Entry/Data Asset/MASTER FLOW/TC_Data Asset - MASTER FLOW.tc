@@ -5,4 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1c43a98c-bdf7-4f1d-9c5d-e254facbc4e5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>074927c4-08f1-4104-872f-a8d897364a6e</id>
+      <masked>false</masked>
+      <name>varNomorRangka</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41ec0074-14a0-4760-bb5c-faf34d77783b</id>
+      <masked>false</masked>
+      <name>varNomorMesin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4bb64fd9-94e6-4197-8d8e-4ca5f6cdaaae</id>
+      <masked>false</masked>
+      <name>varNamaBPKB</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1e54142-7c96-420a-a345-7fa361fbbd58</id>
+      <masked>false</masked>
+      <name>varNomorBPKB</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02201466-b69e-40d5-9120-4834f2643754</id>
+      <masked>false</masked>
+      <name>varNomorPolisiDepan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d4dbc51-4157-4f81-8519-50f27dac1e19</id>
+      <masked>false</masked>
+      <name>varNomorPolisiTengah</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>832aa555-fd6e-40cf-a0b2-7bc3bbcfa1ba</id>
+      <masked>false</masked>
+      <name>varNomorPolisiBelakang</name>
+   </variable>
 </TestCaseEntity>

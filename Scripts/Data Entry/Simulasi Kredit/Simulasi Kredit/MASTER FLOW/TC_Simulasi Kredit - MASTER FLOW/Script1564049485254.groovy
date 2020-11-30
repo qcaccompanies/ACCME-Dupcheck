@@ -65,7 +65,13 @@ Mobile.setText(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Brand'), 0)
 
-Mobile.tap(findTestObject('dynamic object/pickListItem_viewView', [('text') : varBrand]), 0)
+not_run: Mobile.tap(findTestObject('dynamic object/pickListItem_viewView', [('text') : varBrand]), 0)
+
+WebUI.delay(3)
+
+Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Brand'), 0)
+
+Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Brand LOV', [('text') : varBrand]), 0)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Inp Type'), 0)
 
@@ -124,9 +130,11 @@ Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/Sim
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Hitung'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Simulasi Kredit/Simulasi Kredit - Simulasi Kredit/SimulasiKredit_Btn Berikutnya'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Simulasi Kredit/Simulasi Kredit - Asuransi/Asuransi_Nama Asuransi'), 0)
 

@@ -7789,4 +7789,568 @@
   <message>Reading excel file with source file &amp;apos;C:\\Users\\IT-Services\\git\\ACCME-Dupcheck1\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-20T10:57:59</date>
+  <millis>1574222279363</millis>
+  <sequence>1332</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T10:57:59</date>
+  <millis>1574222279468</millis>
+  <sequence>1333</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T10:57:59</date>
+  <millis>1574222279468</millis>
+  <sequence>1334</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:33:32</date>
+  <millis>1574224412382</millis>
+  <sequence>1335</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:33:32</date>
+  <millis>1574224412385</millis>
+  <sequence>1336</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:33:32</date>
+  <millis>1574224412386</millis>
+  <sequence>1337</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:37:44</date>
+  <millis>1574224664690</millis>
+  <sequence>1375</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>154</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:37:44</date>
+  <millis>1574224664694</millis>
+  <sequence>1376</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>154</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:37:44</date>
+  <millis>1574224664694</millis>
+  <sequence>1377</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>154</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:42:57</date>
+  <millis>1574224977776</millis>
+  <sequence>1621</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>162</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:42:57</date>
+  <millis>1574224977781</millis>
+  <sequence>1622</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>162</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:42:57</date>
+  <millis>1574224977782</millis>
+  <sequence>1623</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>162</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:55:00</date>
+  <millis>1574225700428</millis>
+  <sequence>2121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>223</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:55:00</date>
+  <millis>1574225700430</millis>
+  <sequence>2122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>223</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T11:55:00</date>
+  <millis>1574225700430</millis>
+  <sequence>2123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>223</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T12:00:26</date>
+  <millis>1574226026164</millis>
+  <sequence>2464</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>154</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T12:00:26</date>
+  <millis>1574226026165</millis>
+  <sequence>2465</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>154</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T12:00:26</date>
+  <millis>1574226026167</millis>
+  <sequence>2466</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>154</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T12:57:30</date>
+  <millis>1574229450022</millis>
+  <sequence>6243</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>348</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T12:57:30</date>
+  <millis>1574229450031</millis>
+  <sequence>6244</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>348</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T12:57:30</date>
+  <millis>1574229450032</millis>
+  <sequence>6245</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>348</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T13:38:01</date>
+  <millis>1574231881851</millis>
+  <sequence>9698</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>388</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T13:38:01</date>
+  <millis>1574231881854</millis>
+  <sequence>9699</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>388</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T13:38:01</date>
+  <millis>1574231881854</millis>
+  <sequence>9700</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>388</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T13:54:34</date>
+  <millis>1574232874424</millis>
+  <sequence>12033</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>446</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T13:54:34</date>
+  <millis>1574232874427</millis>
+  <sequence>12034</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>446</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T13:54:34</date>
+  <millis>1574232874428</millis>
+  <sequence>12035</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>446</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T14:23:50</date>
+  <millis>1574234630677</millis>
+  <sequence>13616</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>481</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T14:23:50</date>
+  <millis>1574234630680</millis>
+  <sequence>13617</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>481</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T14:23:50</date>
+  <millis>1574234630680</millis>
+  <sequence>13618</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>481</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T14:34:48</date>
+  <millis>1574235288297</millis>
+  <sequence>13648</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>440</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T14:34:48</date>
+  <millis>1574235288301</millis>
+  <sequence>13649</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>440</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T14:34:48</date>
+  <millis>1574235288303</millis>
+  <sequence>13650</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>440</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:07:42</date>
+  <millis>1574237262313</millis>
+  <sequence>15439</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>534</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:07:42</date>
+  <millis>1574237262315</millis>
+  <sequence>15440</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>534</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:07:42</date>
+  <millis>1574237262316</millis>
+  <sequence>15441</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>534</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:11:22</date>
+  <millis>1574237482832</millis>
+  <sequence>16090</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>535</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:11:22</date>
+  <millis>1574237482834</millis>
+  <sequence>16091</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>535</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:11:22</date>
+  <millis>1574237482834</millis>
+  <sequence>16092</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>535</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:36:17</date>
+  <millis>1574238977367</millis>
+  <sequence>17053</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>595</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:36:17</date>
+  <millis>1574238977369</millis>
+  <sequence>17054</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>595</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:36:17</date>
+  <millis>1574238977369</millis>
+  <sequence>17055</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>595</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:53:38</date>
+  <millis>1574240018594</millis>
+  <sequence>19552</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>627</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:53:38</date>
+  <millis>1574240018598</millis>
+  <sequence>19553</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>627</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T15:53:38</date>
+  <millis>1574240018598</millis>
+  <sequence>19554</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>627</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T16:18:25</date>
+  <millis>1574241505093</millis>
+  <sequence>21107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>659</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T16:18:25</date>
+  <millis>1574241505095</millis>
+  <sequence>21108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>659</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T16:18:25</date>
+  <millis>1574241505095</millis>
+  <sequence>21109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>659</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T16:35:50</date>
+  <millis>1574242550565</millis>
+  <sequence>23146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>661</thread>
+  <message>Finding test data with id &amp;apos;Data Files/data entry dupcek1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T16:35:50</date>
+  <millis>1574242550568</millis>
+  <sequence>23147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>661</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-20T16:35:50</date>
+  <millis>1574242550568</millis>
+  <sequence>23148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>661</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\15420\\git\\ACCME-Dupcheck\\data\\dupcheck1.xls&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
 </log>
